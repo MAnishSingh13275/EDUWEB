@@ -22,23 +22,6 @@ faqs.forEach(faq => {
     })
 })
 
-// swiper
-
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-    // width >=600px
-    breakpoints: {
-        600: {
-            slidesPerView: 2
-        }
-    }
-});
-
 // hamburger menu
 
 const menu = document.querySelector(".nav_menu");
@@ -60,3 +43,21 @@ const closeNav = () => {
 }
 
 closeBtn.addEventListener('click', closeNav);
+
+
+// swiper
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    // width >=600px
+    breakpoints: {
+        600: {
+            slidesPerView: 2
+        }
+    }
+});
