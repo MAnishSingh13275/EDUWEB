@@ -29,6 +29,7 @@
 }
 
 body{
+    background-image: url(/assets/images/bg-texture.png);
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
     background-color: var(--color-bg);

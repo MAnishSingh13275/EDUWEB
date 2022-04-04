@@ -8,6 +8,7 @@
     <title>Edu Web</title>
     <!-- css -->
     <link rel="stylesheet" href="assets/stylesheets/index.css">
+    <link rel="stylesheet" href="assets/stylesheets/contact.css">
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/92abf015d0.js" crossorigin="anonymous"></script>
     <!-- google font -->
@@ -39,10 +40,53 @@
         </div>
     </nav>
 
-    
+    <!------------------- Contact ------------------->
+
+    <section class="contact">
+        <div class="container contact_container">
+            <aside class="contact_aside">
+                <div class="aside_image">
+                    <img src="assets/images/contact.svg" alt="">
+                </div>
+                <h2>Contact Us</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus delectus autem optio quo corrupti
+                    porro!
+                </p>
+                <ul class="contact_details">
+                    <li>
+                        <i class="fa fa-phone"></i>
+                        <h5>0000000000</h5>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope"></i>
+                        <h5>1234@1234.com</h5>
+                    </li>
+                    <li>
+                        <i class="fa fa-location-arrow"></i>
+                        <h5>chaand pe hai apun</h5>
+                    </li>
+                </ul>
+                <ul class="contact_socials">
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                </ul>
+            </aside>
 
 
-
+            <form class="contact_form" method="POST" action="https://formspree.io/f/mpzbjben">
+                <div class="form_name">
+                    <input type="text" name="First Name" placeholder="First Name" required>
+                    <input type="text" name="Last Name" placeholder="Last Name" required>
+                </div>
+                <input type="email" name="Email Address" placeholder="Your Email" required>
+                <textarea name="Message" placeholder="Message" cols="30" rows="7" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
 
 
 
@@ -106,7 +150,7 @@
     </footer>
 
 
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
     <script src="assets/js/main.js"></script>
 </body>
 
